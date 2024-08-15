@@ -78,7 +78,7 @@ public class Consultar extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jButton1.setText("Atras");
+        jButton1.setIcon(new javax.swing.ImageIcon("D:\\ERMENIGILDO\\DOCUMENTO\\proyectos-industriales\\proyecto-Gym\\FitGeniusTech\\src\\main\\java\\com\\mycompany\\fitgeniustech\\img\\atrass.png")); // NOI18N
 
         jButton2.setIcon(new javax.swing.ImageIcon("D:\\ERMENIGILDO\\DOCUMENTO\\proyectos-industriales\\proyecto-Gym\\FitGeniusTech\\src\\main\\java\\com\\mycompany\\fitgeniustech\\img\\salirr.png")); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -110,9 +110,9 @@ public class Consultar extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(66, 66, 66)
                 .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(213, 213, 213)
                 .addComponent(jButton3)
-                .addGap(163, 163, 163)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton2)
                 .addGap(152, 152, 152))
         );
